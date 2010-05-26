@@ -1,3 +1,8 @@
+Changed GitHub repo name to open_hippel
+
+This repo should hold the different features modules that will make up Open Hippel.
+
+
 hippel_discussion module
 
 This is a feature export of the Discussion and Reply setup in Open Hippel.
