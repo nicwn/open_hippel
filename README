@@ -1,0 +1,12 @@
+Changed GitHub repo name to open_hippel
+
+This repo should hold the different features modules that will make up Open Hippel.
+
+
+hippel_discussion module
+
+This is a feature export of the Discussion and Reply setup in Open Hippel.
+
+hippel_redirect module
+
+This is a simple module that calls on hook_init to check the node type, and redirect users after they had created a reply or commented on a reply, back to the main view of the referenced discussion node.
