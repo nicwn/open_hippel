@@ -1,0 +1,168 @@
+# $Id$
+#
+# LANGUAGE translation of Drupal (general)
+# Copyright 2009 NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  views_attach.views.inc,v 1.1.2.1.2.5 2009/10/02 21:12:01 crell
+#  views_attach_plugin_display_node_content.inc,v 1.1.2.7.2.7 2009/10/02 21:12:01 crell
+#  views_attach_plugin_display_profile.inc,v 1.1.2.1.2.9 2009/10/08 22:03:22 crell
+#  views_attach.module,v 1.1.2.9.2.8 2009/06/26 20:58:13 eaton
+#  views_attach.info,v 1.1.2.1.2.2 2009/06/25 20:21:12 eaton
+#
+msgid ""
+msgstr "Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2009-11-06 23:11+0100\n"
+"PO-Revision-Date: 2009-11-06 23:14+0100\n"
+"Last-Translator: Thomas Zahreddin <thomas@voicehero.com>\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: views_attach.views.inc:11;21
+msgid "Profile"
+msgstr "Profil"
+
+#: views_attach.views.inc:12
+msgid "Display the view as a part of a user profile."
+msgstr "Zeigen Sie die Ansicht als Teil eines Benutzerprofil."
+
+#: views_attach.views.inc:25;36
+msgid "Node content"
+msgstr "Beitragsinhalt"
+
+#: views_attach.views.inc:26
+msgid "Display the view as part of a node's content."
+msgstr "Zeigen Sie die Ansicht als Teil eines Beitrags."
+
+#: views_attach_plugin_display_node_content.inc:30
+msgid "Node content settings"
+msgstr "Einstellungen für den Beitragsinhalt"
+
+#: views_attach_plugin_display_node_content.inc:40;84
+msgid "Node types"
+msgstr "Beitragstypen"
+
+#: views_attach_plugin_display_node_content.inc:52;96
+msgid "Build modes"
+msgstr "[fuzzy] Erstellungsmodi"
+
+#: views_attach_plugin_display_node_content.inc:64;106
+#: views_attach_plugin_display_profile.inc:57;87
+msgid "Arguments"
+msgstr "Argumente"
+
+#: views_attach_plugin_display_node_content.inc:65
+#: views_attach_plugin_display_profile.inc:58
+#: views_attach.module:31
+msgid "None"
+msgstr "Kein"
+
+#: views_attach_plugin_display_node_content.inc:70;155
+msgid "Show title"
+msgstr "Videotitel anzeigen"
+
+#: views_attach_plugin_display_node_content.inc:71
+msgid "Yes"
+msgstr "Ja"
+
+#: views_attach_plugin_display_node_content.inc:71
+msgid "No"
+msgstr "Nein"
+
+#: views_attach_plugin_display_node_content.inc:89
+msgid "Embed this display in the following node types"
+msgstr "Integrieren Sie diese Anzeige in den folgenden Arten von Beiträgen"
+
+#: views_attach_plugin_display_node_content.inc:99
+msgid "Embed this display in the following build modes"
+msgstr "Integrieren Sie diese Anzeige in die folgenden Modi "
+
+#: views_attach_plugin_display_node_content.inc:109
+#: views_attach_plugin_display_profile.inc:90
+msgid "No special handling"
+msgstr "Keine besondere Behandlung"
+
+#: views_attach_plugin_display_node_content.inc:110
+msgid "Use the ID of the node the view is attached to"
+msgstr "Verwenden Sie die ID des Beitrags, die Ansicht ist beigefügt"
+
+#: views_attach_plugin_display_node_content.inc:115
+#: views_attach_plugin_display_profile.inc:96
+msgid "How should this display populate the view's arguments?"
+msgstr "Wie sollen die Argumente der Ansicht gefüllt werden?"
+
+#: views_attach_plugin_display_node_content.inc:123
+msgid "Use tokens from the node the view is attached to"
+msgstr "Verwenden Sie Platzhalter aus dem Beitrag, die Ansicht ist beigefügt"
+
+#: views_attach_plugin_display_node_content.inc:136
+msgid "You may use token replacement to provide arguments based on the current node. Separate arguments with \"/\"."
+msgstr "Sie können die Ersetzung von Platzhaltern benutzen, um Argumente aus dem aktuellen Beitrag zu übernehmen. Trennen Sie Argumente mit \"/\"."
+
+#: views_attach_plugin_display_node_content.inc:140
+#: views_attach_plugin_display_profile.inc:121
+msgid "Replacement tokens"
+msgstr "Ersatz von Platzhaltern"
+
+#: views_attach_plugin_display_node_content.inc:158
+msgid "Show the title of the view above the attached view."
+msgstr "Den Titel der Ansicht über der beigefügten Ansicht anzeigen."
+
+#: views_attach_plugin_display_profile.inc:29
+msgid "Profile settings"
+msgstr "Profil-Einstellungen"
+
+#: views_attach_plugin_display_profile.inc:34
+msgid "Default"
+msgstr "Standard"
+
+#: views_attach_plugin_display_profile.inc:39;79
+msgid "Category"
+msgstr "Kategorie"
+
+#: views_attach_plugin_display_profile.inc:50;71
+msgid "Weight"
+msgstr "Gewichtung"
+
+#: views_attach_plugin_display_profile.inc:74
+msgid "The position of this view in relation to other profile elements."
+msgstr "Die Position dieser Ansicht ist in Bezug auf andere Elemente sichtbar."
+
+#: views_attach_plugin_display_profile.inc:82
+msgid "The name of the profile tab this view should be listed in. If empty, it will be displayed on the main profile tab."
+msgstr "Der Name des Reiters im Profil unter der die Ansicht erreichbar ist. Wenn es leer ist, wird die Ansicht direkt auf der Profilseite angezeigt."
+
+#: views_attach_plugin_display_profile.inc:91
+msgid "Use the ID of the user the view is attached to"
+msgstr "Verwenden Sie die ID des Benutzers, dem diese Ansicht zugeordnet ist."
+
+#: views_attach_plugin_display_profile.inc:104
+msgid "Use tokens from the user the view is attached to"
+msgstr "Verwenden Sie Platzhalter aus dem Beitrag, die Ansicht ist beigefügt"
+
+#: views_attach_plugin_display_profile.inc:117
+msgid "You may use token replacement to provide arguments based on the current user profile. Separate arguments with \"/\"."
+msgstr "Sie können die Ersetzung von Platzhaltern benutzen, um Argumente aus dem aktuellen Profil zu übernehmen. Trennen Sie Argumente mit \"/\"."
+
+#: views_attach.module:35
+msgid "Attached view: !view - !display"
+msgstr "Attached view: !view - !display"
+
+#: views_attach.module:40
+msgid "Configure"
+msgstr "Konfigurieren"
+
+#: views_attach.info:0
+msgid "Views attach"
+msgstr "Views attach"
+
+#: views_attach.info:0
+msgid "Provides new Views display types that can be attached to nodes or users."
+msgstr "Stellt für Ansichten neue Anzeigen bereit, die Beiträgen oder Benutzern zugeordnet werden können."
+
+#: views_attach.info:0
+msgid "Views"
+msgstr "Views"
+

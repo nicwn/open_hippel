@@ -1,0 +1,13 @@
+; $Id: batch_example.info,v 1.1.2.3 2009/10/04 01:41:42 davereid Exp $
+name = Batch example
+description = An example outlining how a module can define batch operations.
+package = Example modules
+version = VERSION
+core = 6.x
+
+; Information added by drupal.org packaging script on 2010-04-15
+version = "6.x-1.x-dev"
+core = "6.x"
+project = "examples"
+datestamp = "1271333186"
+

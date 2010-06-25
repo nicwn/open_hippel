@@ -1,0 +1,14 @@
+; $Id: trigger_example.info,v 1.1.2.1 2009/10/04 01:41:43 davereid Exp $
+name = Trigger example
+description = An example showing how a module can provide triggers that can have actions associated with them.
+package = Example modules
+version = VERSION
+core = 6.x
+dependencies[] = trigger
+
+; Information added by drupal.org packaging script on 2010-04-15
+version = "6.x-1.x-dev"
+core = "6.x"
+project = "examples"
+datestamp = "1271333186"
+

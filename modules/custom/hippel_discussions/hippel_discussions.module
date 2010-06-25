@@ -1,0 +1,3 @@
+<?php
+
+include_once('hippel_discussions.features.inc');

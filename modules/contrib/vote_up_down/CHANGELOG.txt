@@ -1,0 +1,14 @@
+$Id: CHANGELOG.txt,v 1.8.2.3.2.3 2009/08/10 08:36:13 lut4rp Exp $
+
+May 23th, 2009 - 6.x-2.x-dev
+--------------------------------
+[Pratul Kalia]
+- Split up the core, nodes and comments parts.
+- Removed lots of cruft.
+- Cleaned up the admininstration interface.
+- Now includes a new widget API that allows easy, switchable widgets.
+- Added hook_link support, with a proxy function for easy extendability by
+  other modules.
+- Added support for voting on taxonomy terms on a node.
+- Added support for resetting votes by a user on an object.
+

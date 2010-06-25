@@ -1,0 +1,576 @@
+# $Id: calendar.sv.po,v 1.1.2.2 2010/04/01 04:16:10 seals Exp $
+#
+# Swedish translation of Drupal (calendar)
+# Generated from files:
+#  calendar.module,v 1.121.2.38 2009/03/17 18:03:36 karens
+#  calendar.info,v 1.8 2008/04/23 23:42:53 karens
+#  calendar.views.inc,v 1.1.2.9 2009/01/23 21:05:41 karens
+#  calendar.install,v 1.13.2.12 2010/02/28 14:23:48 karens
+#  calendar_ical.info,v 1.1.2.1 2008/09/05 11:03:42 karens
+#  jcalendar.info,v 1.1.4.2 2008/06/23 14:55:01 karens
+#  calendar_ical.views.inc,v 1.1.2.6 2009/02/16 23:46:22 karens
+#  calendar_ical_admin.inc,v 1.1.2.2 2008/10/02 20:23:49 karens
+#  calendar_plugin_display_ical.inc,v 1.1.2.5 2008/11/25 16:12:36 karens
+#  calendar_view_plugin_style.inc,v 1.1.2.19 2009/02/17 18:09:35 karens
+#  calendar_plugin_style_ical.inc,v 1.1.2.17 2009/04/28 22:47:29 karens
+#  calendar_plugin_style.inc,v 1.1.2.15 2009/05/11 23:52:15 karens
+#  calendar_ical.module,v 1.1.2.6 2008/11/24 15:48:15 karens
+#  calendar_plugin_display_attachment.inc,v 1.1.2.17 2009/03/17 18:03:36 karens
+#  calendar_plugin_display_page.inc,v 1.1.2.20 2009/07/24 19:44:09 karens
+#  calendar_plugin_display_block.inc,v 1.1.2.10 2008/12/06 14:56:15 karens
+#  jcalendar.module,v 1.1.4.16 2009/07/28 21:38:07 karens
+#  calendar-month-multiple-node.tpl.php,v 1.1.2.5 2009/02/14 16:51:50 karens
+#  calendar-week-multiple-node.tpl.php,v 1.1.2.4 2008/11/20 12:29:14 karens
+#  calendar-day.tpl.php,v 1.7.2.9 2009/07/28 21:50:50 karens
+#  calendar-week.tpl.php,v 1.5.2.6 2009/02/16 23:46:22 karens
+#  theme.inc,v 1.10.2.72 2009/07/02 14:42:08 karens
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Calendar 6.x\n"
+"POT-Creation-Date: 2010-04-01 05:48+0200\n"
+"PO-Revision-Date: 2010-04-01 05:48+0100\n"
+"Last-Translator: Magnus Gunnarsson <magnus.gunnarsson76@gmail.com>\n"
+"Language-Team: drupalsverige.se\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Swedish\n"
+"X-Poedit-Country: SWEDEN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: calendar.module:28
+msgid "<p>View complete documentation at !link.</p>"
+msgstr "<p>Visa fullständig dokumentation på !link.</p>"
+
+#: calendar.module:138
+msgid "Calendar Legend."
+msgstr "Teckenförklaring till kalender."
+
+#: calendar.module:144
+msgid "Calendar Legend"
+msgstr "Teckenförklaring till kalender"
+
+#: calendar.module:156
+msgid "Year"
+msgstr "År"
+
+#: calendar.module:156
+msgid "Month"
+msgstr "Månad"
+
+#: calendar.module:156
+msgid "Day"
+msgstr "Dag"
+
+#: calendar.module:156
+msgid "Week"
+msgstr "Vecka"
+
+#: calendar.module:336
+msgid "Change date"
+msgstr "Ändra datum"
+
+#: calendar.module:394
+msgid "The Date argument in this view must be set up to provide a default value set to the current date. Edit the argument, find 'Action to take if argument is not present.', choose 'Provide default argument', then select 'Current date'."
+msgstr "Argumentet för Datum i denna vy måste anges för tillhandahålla ett förvalt värde angivet till det nuvarande datumet. Redigera argumentet, leta upp \"Åtgärd att utföra om argumentet inte finns\". Välj \"Tillhandahåll förvalt argument\", och väl sen \"Nuvarande datum\"."
+
+#: calendar.module:431
+msgid " is not a valid hex color"
+msgstr "är inte en giltig hexadecimal färg"
+
+#: calendar.module:472
+#: calendar.info:0
+#: includes/calendar.views.inc:195
+msgid "Calendar"
+msgstr "Kalender"
+
+#: calendar.module:474
+msgid "View the calendar."
+msgstr "Visa kalendern."
+
+#: calendar.install:79;102;118
+msgid "Calendar module cannot be updated until after Views has been updated. Please return to <a href=\"@update-php\">update.php</a> and run the remaining updates."
+msgstr "Modulen Calendar kan inte uppdateras innan Views har uppdateras. Var vänlig återgå till <a href=\"@update-php\">update.php</a> och kör återstående uppdateringar."
+
+#: calendar.install:80;103;119
+msgid "calendar.module has updates, but cannot be updated until views.module is updated first."
+msgstr "Modulen Calendar har uppdateringar, men kan inte uppdateras förrän Modulen Views har uppdaterats."
+
+#: calendar.info:0
+msgid "Views plugin to display views containing dates as Calendars."
+msgstr "Insticksprogram åt Views för att visa vyer som innehåller datum som kalendrar."
+
+#: calendar.info:0
+#: calendar_ical/calendar_ical.info:0
+#: jcalendar/jcalendar.info:0
+msgid "Date/Time"
+msgstr "Datum/Tid"
+
+#: calendar_ical/calendar_ical.views.inc:30;42;64
+msgid "iCal feed"
+msgstr "innehållsflöde för iCal"
+
+#: calendar_ical/calendar_ical.views.inc:31
+msgid "Display the view as an iCal feed."
+msgstr "Visa vyn som ett innehållsflöde av iCal"
+
+#: calendar_ical/calendar_ical.views.inc:65
+msgid "Generates an iCal feed from a view."
+msgstr "Genererar ett innehållsflöde för iCal från en vy."
+
+#: calendar_ical/calendar_ical_admin.inc:22
+msgid "Expire iCal cache"
+msgstr "Rensa cachning av iCal"
+
+#: calendar_ical/calendar_ical_admin.inc:24
+msgid "iCal feeds are cached to improve performance. Set an expiration time for cached feeds."
+msgstr "innehållsflöden för iCal cachas för att öka prestanda. Ange en utgångstid för cachat innehållsflöde."
+
+#: calendar_ical/calendar_ical_admin.inc:30
+msgid "iCal Feeds"
+msgstr "Innehållsflöden för iCal"
+
+#: calendar_ical/calendar_ical_admin.inc:31
+msgid "Use this section to set up iCal feeds that should be displayed in this calendar. They will be shown along with any internal items that match the calendar criteria."
+msgstr "Använd denna sektion för att sätta upp innehållsflöden för iCal som skall visas i denna kalender. De kommer att visas med ett interna poster som matchar kriteriat i kalendern."
+
+#: calendar_ical/calendar_ical_admin.inc:42
+msgid "Feed type"
+msgstr "Typ av innehållsflöde"
+
+#: calendar_ical/calendar_ical_admin.inc:47
+msgid "Name"
+msgstr "Namn"
+
+#: calendar_ical/calendar_ical_admin.inc:50
+msgid "The name of a feed to include in this calendar."
+msgstr "Namnet på ett innehållsflöde att inkludera i denna kalendern."
+
+#: calendar_ical/calendar_ical_admin.inc:53
+msgid "Url"
+msgstr "URL"
+
+#: calendar_ical/calendar_ical_admin.inc:57
+msgid "The external feed url or internal file path and name. Change 'webcal://' to 'http://'."
+msgstr "Den externa innehållsflödets URL eller interna filsökväg och namn. Ändra \"webcal://\" till \"http://\""
+
+#: calendar_ical/calendar_ical_admin.inc:61
+msgid "Stripe color"
+msgstr "Randig färg"
+
+#: calendar_ical/calendar_ical_admin.inc:67
+msgid "The hex color value (like #ffffff) to use for this feed's calendar stripe."
+msgstr "Värdet för hexadecimal färg (såsom #ffffff) att användas för detta nyhetsflödes rand i kalendern."
+
+#: calendar_ical/calendar_ical_admin.inc:77
+msgid "Submit"
+msgstr "Skicka"
+
+#: calendar_ical/calendar_plugin_display_ical.inc:81
+msgid "iCal settings"
+msgstr "Inställningar för iCal"
+
+#: calendar_ical/calendar_plugin_display_ical.inc:85
+msgid "Using the site name"
+msgstr "Använder webbplatsens namn"
+
+#: calendar_ical/calendar_plugin_display_ical.inc:93
+msgid "Multiple displays"
+msgstr "Flera visningar"
+
+#: calendar_ical/calendar_plugin_display_ical.inc:103
+#: includes/calendar_view_plugin_style.inc:87
+msgid "None"
+msgstr "Ingen"
+
+#: calendar_ical/calendar_plugin_display_ical.inc:108;135
+msgid "Attach to"
+msgstr "Bifoga till"
+
+#: calendar_ical/calendar_plugin_display_ical.inc:127
+msgid "Use the site name for the title"
+msgstr "Använd webbplatsen namn för titeln"
+
+#: calendar_ical/calendar_plugin_display_ical.inc:144
+msgid "The ical icon will be shown only on the selected displays."
+msgstr "Ikonen för iCal kommer att visas enbart på valda visningar."
+
+#: calendar_ical/calendar_plugin_display_ical.inc:150
+msgid "This view will be displayed by visiting this path on your site. It is recommended that the path be something like \"path/%/%/ical\", putting one % in the path for each argument you have defined in the view."
+msgstr "Denna vy kommer att visas genom att besöka dess sökväg på din webbplats. Det rekommenderas att sökvägen är något liknande \"path/%/%/ical\". Genom att sätta en % i sökvägen för varje argument har du definierat vyn."
+
+#: calendar_ical/calendar_plugin_display_ical.inc:203
+msgid "A Calendar period display will not work without a Date argument or a Date filter."
+msgstr "En visning av kalenderperiod kommer inte att fungera utan ett argument eller filter av typen Datum."
+
+#: calendar_ical/calendar_plugin_style_ical.inc:70
+msgid "Map the View fields to the values they should represent in the iCal feed. Only fields that have been added to the view are available to use in this way. You can add additional fields to the view and mark them 'Exclude from display' if you only want them in the iCal feed."
+msgstr "Kartlägg fältet för Views till värdet de skall representera i innehållsflödet för iCal. Enbart fält som har lagts till vyn finns tillgängliga att användas på detta sätt. Du kan lägga till ytterligare fält till vyn märka dem \"Åsidosätt från visning\" om du enbart vill visa dem i innehållsflöden för iCal."
+
+#: calendar_ical/calendar_plugin_style_ical.inc:74
+msgid "Title"
+msgstr "Titel"
+
+#: calendar_ical/calendar_plugin_style_ical.inc:81
+msgid "Description"
+msgstr "Beskrivning"
+
+#: calendar_ical/calendar_plugin_style_ical.inc:87
+msgid "Location"
+msgstr "Plats"
+
+#: calendar_ical/calendar_plugin_style_ical.inc:107
+msgid "The @style style requires a Date argument or a Date filter."
+msgstr "Stilen @style kräver ett argument eller filter av typen Datum."
+
+#: calendar_ical/calendar_plugin_style_ical.inc:120
+msgid "The @style style requires a Title field for the iCal export."
+msgstr "Stilen @style kräver ett titelfält för exporten av iCal"
+
+#: calendar_ical/calendar_plugin_style_ical.inc:134
+#: includes/calendar_plugin_style.inc:106
+msgid "The date field '@field' used by the display '@display_title' cannot be set to 'Group multiple values'."
+msgstr "Datumfältet \"@field\" använd av visningen \"@display_title\" kan inte anges till \"Gruppera flera värde\"."
+
+#: calendar_ical/calendar_ical.module:29;29
+msgid "Add to calendar"
+msgstr "Lägg till kalender"
+
+#: calendar_ical/calendar_ical.info:0
+msgid "Calendar iCal"
+msgstr "Kalender iCal"
+
+#: calendar_ical/calendar_ical.info:0
+msgid "Adds ical functionality to Calendar views."
+msgstr "Lägger till funktionalitet till kalendervyer av typen iCal."
+
+#: includes/calendar.views.inc:114;127
+msgid "Calendar page"
+msgstr "Kalendersida"
+
+#: includes/calendar.views.inc:115
+msgid "Calendar page. Attach Calendar period attachments to this page, set to show the year, month, day, and week views."
+msgstr "Kalendersida. Lägg till bilagor för kalenderperiod till denna sida, för att visa års-, månads-, dags- och veckovy."
+
+#: includes/calendar.views.inc:136;149
+msgid "Calendar block"
+msgstr "Kalenderblock"
+
+#: includes/calendar.views.inc:137
+msgid "Calendar page. Attach a Calendar period attachment to this block, set to show the year, month, day, or week view."
+msgstr "Kalendersida. Lägg till bilagor för kalenderperiod till detta block för att visa års-, månads-, dags- eller veckovy."
+
+#: includes/calendar.views.inc:154
+#: includes/calendar_plugin_display_attachment.inc:185;224
+msgid "Calendar period"
+msgstr "Kalenderperiod"
+
+#: includes/calendar.views.inc:155
+msgid "An attachment for a Year, Month, Day, or Week calendar display, using any style you choose. Attach to a Calendar page and/or a Calendar block."
+msgstr "En bifogning för kalendervisning av År, Månad, Dag eller Vecka genom att välja en stil som du väljer. Bifoga till en kalendersida och/eller ett kalenderblock."
+
+#: includes/calendar.views.inc:165
+msgid "Calendar page year, month, week, or day view"
+msgstr "Kalendersida för års-, månads-, vecko- eller dagsvy"
+
+#: includes/calendar.views.inc:180
+msgid "Calendar navigation"
+msgstr "Kalendernavigering"
+
+#: includes/calendar.views.inc:181
+msgid "Creates back/next navigation and calendar links."
+msgstr "Skapar navigeringslänkar föregående/nästa och kalenderlänkar."
+
+#: includes/calendar.views.inc:196
+msgid "Displays Views results in a calendar."
+msgstr "Visar resultat för vy i en kalender."
+
+#: includes/calendar_plugin_display_attachment.inc:94
+msgid "A Calendar period display will not work without a Date argument."
+msgstr "En visning av kalenderperiod kommer inte att fungera utan att datumargument."
+
+#: includes/calendar_plugin_display_attachment.inc:188
+msgid "Select the calendar time period for this display."
+msgstr "Välj kalenderns tidsperiod för denna visning."
+
+#: includes/calendar_plugin_display_attachment.inc:219
+#: includes/calendar_plugin_display_page.inc:79
+msgid "Calendar settings"
+msgstr "Inställningar för kalender"
+
+#: includes/calendar_plugin_display_block.inc:26
+msgid "The Calendar period display '@display_title' will not work without a Date argument."
+msgstr "Kalenderperiodens vy \"@display_title\" kommer inte att fungera utan ett datumargument."
+
+#: includes/calendar_plugin_display_page.inc:22
+msgid "The Calendar display '@display_title' will not work without a Date argument."
+msgstr "Kalenderns vy \"@display_title\" kommer inte att fungera utan ett datumargument."
+
+#: includes/calendar_plugin_display_page.inc:86
+msgid "Legend Content Types"
+msgstr "Teckenförklaring till innehållstyper"
+
+#: includes/calendar_plugin_display_page.inc:87;92;97
+msgid "Edit"
+msgstr "Redigera"
+
+#: includes/calendar_plugin_display_page.inc:91
+msgid "Legend Vocabularies"
+msgstr "Teckenförklaring till vokabulärer"
+
+#: includes/calendar_plugin_display_page.inc:96
+msgid "Legend Terms"
+msgstr "Teckenförklaring till termer"
+
+#: includes/calendar_plugin_display_page.inc:103;125
+msgid "Date changer"
+msgstr "Datumändrare"
+
+#: includes/calendar_plugin_display_page.inc:109;135
+msgid "Add new date link"
+msgstr "Lägg till ny datumlänk"
+
+#: includes/calendar_plugin_display_page.inc:116
+#: includes/calendar_view_plugin_style.inc:65
+msgid "No"
+msgstr "Nej"
+
+#: includes/calendar_plugin_display_page.inc:116
+#: includes/calendar_view_plugin_style.inc:65
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/calendar_plugin_display_page.inc:130
+msgid "Display a popup calendar date selector?"
+msgstr "Visa en popupkalender med datumval?"
+
+#: includes/calendar_plugin_display_page.inc:139
+msgid "No link"
+msgstr "Ingen länk"
+
+#: includes/calendar_plugin_display_page.inc:140
+msgid "Display a link to add a new date of the specified content type. Displayed only to users with appropriate permissions."
+msgstr "Visa en länk för att lägga till ett nytt datum av specificerad innehållstyp. Visas enbart för användare med tillhörande rättigheter."
+
+#: includes/calendar_plugin_display_page.inc:147
+msgid "Content Type Legend Colors"
+msgstr "Färg för teckenförklaring till innehållstyper"
+
+#: includes/calendar_plugin_display_page.inc:149
+msgid "Content Type"
+msgstr "Iinnehållstyper"
+
+#: includes/calendar_plugin_display_page.inc:149
+msgid "Set a hex color value (like #ffffff) to use in the calendar legend for each content type. Types with empty values will have no stripe in the calendar and will not be added to the legend."
+msgstr "Ange ett hexadecimalt färgvärde (såsom #ffffff) att användas för varje taxonomiterm. Termer med tomma värden kommer inte att ha någon rand i kalendern och kommer inte att läggas till teckenförklaringen."
+
+#: includes/calendar_plugin_display_page.inc:182
+msgid "Vocabulary Legend Types"
+msgstr "Teckenförklaringen för vokabulärtyper"
+
+#: includes/calendar_plugin_display_page.inc:189
+msgid "Vocabularies"
+msgstr "Vokabulärer"
+
+#: includes/calendar_plugin_display_page.inc:189
+msgid "Select vocabularies to use for setting calendar legend colors by taxonomy term. This works best for vocabularies with only a limited number of possible terms."
+msgstr "Välj vokabulärer som skall användas för att ange färger per taxonomiterm. Detta fungerar bäst för vokabulärer med enbart ett begränsat antal möjliga termer."
+
+#: includes/calendar_plugin_display_page.inc:195
+msgid "Taxonomy Legend Colors"
+msgstr "Färg för teckenförklaring till taxonomi"
+
+#: includes/calendar_plugin_display_page.inc:198
+msgid "Please select Legend vocabularies first!"
+msgstr "Var vänlig välj inskrift för vokabulär först!"
+
+#: includes/calendar_plugin_display_page.inc:200
+msgid "Taxonomy Terms"
+msgstr "Taxonomitermer"
+
+#: includes/calendar_plugin_display_page.inc:200
+msgid "Set a hex color value (like #ffffff) to use in the calendar legend for each taxonomy term. Terms with empty values will have no stripe in the calendar and will not be added to the legend."
+msgstr "Ange ett hexadecimalt färgvärde (såsom #ffffff) att användas för varje taxonomiterm. Termer med tomma värden kommer inte att ha någon rand i kalendern och kommer inte att läggas till teckenförklaringen."
+
+#: includes/calendar_plugin_style.inc:75
+msgid "The @style style requires a Date argument."
+msgstr "Stilen @style kräver ett datumargument"
+
+#: includes/calendar_plugin_style.inc:114
+msgid "The date argument date fields must be added to this query. You can exclude them if you do not want them displayed in the calendar."
+msgstr "Fältet för datumargument måste läggas till denna databasfråga. Du kan utesluta dem om du inte vill visa dem i kalendern."
+
+#: includes/calendar_view_plugin_style.inc:55
+msgid "Calendar day of week names"
+msgstr "Namn på veckodagar i kalender"
+
+#: includes/calendar_view_plugin_style.inc:58
+msgid "First letter of name"
+msgstr "Första bokstaven av namn"
+
+#: includes/calendar_view_plugin_style.inc:58
+msgid "First two letters of name"
+msgstr "Första två bokstäverna av namn"
+
+#: includes/calendar_view_plugin_style.inc:58
+msgid "Abbreviated name"
+msgstr "Förkortat namn"
+
+#: includes/calendar_view_plugin_style.inc:58
+msgid "Full name"
+msgstr "Fullständigt namn"
+
+#: includes/calendar_view_plugin_style.inc:59
+msgid "The way day of week names should be displayed in a calendar."
+msgstr "Det sätt som veckodagar skall visas i en kalender."
+
+#: includes/calendar_view_plugin_style.inc:62
+msgid "Show week numbers"
+msgstr "Visa veckonummer"
+
+#: includes/calendar_view_plugin_style.inc:66
+msgid "Whether or not to show week numbers in the left column of calendar weeks and months."
+msgstr "Huruvida veckonummer skall visas i den vänstra kolumnen för kalenderveckor och månader."
+
+#: includes/calendar_view_plugin_style.inc:69
+msgid "Maximum items"
+msgstr "Största antal poster"
+
+#: includes/calendar_view_plugin_style.inc:71
+msgid "Unlimited"
+msgstr "Obegränsad"
+
+#: includes/calendar_view_plugin_style.inc:71
+msgid "No items"
+msgstr "Inga poster"
+
+#: includes/calendar_view_plugin_style.inc:71
+msgid "3 items"
+msgstr "3 poster"
+
+#: includes/calendar_view_plugin_style.inc:71
+msgid "5 items"
+msgstr "5 poster"
+
+#: includes/calendar_view_plugin_style.inc:71
+msgid "10 items"
+msgstr "10 poster"
+
+#: includes/calendar_view_plugin_style.inc:73
+msgid "Maximum number of items to show in calendar cells, used to keep the calendar from expanding to a huge size when there are lots of items in one day. "
+msgstr "Största antal poster att visa i en kalendercell, används för att förhindra att kalendern expanderar till en jättelik storlek när det finns många poster i en dag."
+
+#: includes/calendar_view_plugin_style.inc:76
+msgid "Too many items"
+msgstr "För många poster"
+
+#: includes/calendar_view_plugin_style.inc:78
+msgid "Show maximum, add 'more' link"
+msgstr "Visa största, lägg till länk \"mer\""
+
+#: includes/calendar_view_plugin_style.inc:78
+msgid "Hide all, add link to day"
+msgstr "Dölj alla, lägg till länk till dag"
+
+#: includes/calendar_view_plugin_style.inc:80
+msgid "Behavior when there are more than the above number of items in a single day. When there more items than this limit, a link to the day view will be displayed."
+msgstr "Beteende när det finns mer än de ovan angivna antal poster i en enda dag. Om det finns fler poster än denna gräns, så kommer en länk till dagsvyn att visas."
+
+#: includes/calendar_view_plugin_style.inc:83
+msgid "Time grouping"
+msgstr "Gruppera på tid"
+
+#: includes/calendar_view_plugin_style.inc:86
+msgid "Group items together into time periods based on their start time."
+msgstr "Gruppera ihop poster till tidsperioder baserade på dess starttid."
+
+#: includes/calendar_view_plugin_style.inc:87
+msgid "Hour"
+msgstr "Timma"
+
+#: includes/calendar_view_plugin_style.inc:87
+msgid "Half hour"
+msgstr "Halvtimme"
+
+#: includes/calendar_view_plugin_style.inc:87
+msgid "Custom"
+msgstr "Anpassad"
+
+#: includes/calendar_view_plugin_style.inc:90
+msgid "Custom time grouping"
+msgstr "Anpassad tidsgruppering"
+
+#: includes/calendar_view_plugin_style.inc:93
+msgid "When choosing the 'custom' Time grouping option above, create custom time period groupings as a comma-separated list of 24-hour times in the format HH:MM:SS, like '00:00:00,08:00:00,18:00:00'. Be sure to start with '00:00:00'. All items after the last time will go in the final group."
+msgstr "Vid val av det \"anpassade\" alternativet tidsgrupperingen ovan, skapa en anpassad gruppering för tidsperiod som en kommaseparerad lista av 24-timmars tider i formatet HH:MM:SS, såsom \"00:00:00,08:00:00\". Se till att börja med \"00:00:00\". Alla poster efter den sista tiden kommer att hamna i den sista gruppen."
+
+#: includes/calendar_view_plugin_style.inc:111
+msgid "Field grouping"
+msgstr "Gruppera på fält"
+
+#: includes/calendar_view_plugin_style.inc:114
+msgid "Optionally group items into columns by a field value, for instance select the content type to show items for each content type in their own column, or use a location field to organize items into columns by location."
+msgstr "Valfritt gruppera poster till kolumner genom ett fältvärde. Välj till exempel innehållstypen för att visa poster för varje innehållstyp i dess egen kolumn, eller använd ett lokaliseringsfält för att organisera poster till kolumner per plats."
+
+#: jcalendar/jcalendar.module:18
+msgid "Creates a popup for calendar dates."
+msgstr "Skapar en popup för kalenderdatum"
+
+#: jcalendar/jcalendar.module:90
+#: theme/calendar-month-multiple-node.tpl.php:25
+#: theme/calendar-week-multiple-node.tpl.php:24
+msgid "more"
+msgstr "mer"
+
+#: jcalendar/jcalendar.module:48
+msgid "Get Calendar Node"
+msgstr "Erhåll nod för kalender"
+
+#: jcalendar/jcalendar.info:0
+msgid "Calendar Popup"
+msgstr "Popup av kalender"
+
+#: jcalendar/jcalendar.info:0
+msgid "Replaces the links to calendar items with a javascript popup that gracefully regresses if javascript is not enabled"
+msgstr "Ersätter länkar till kalenderposter med en JavaScript popup som elegant återgår om JavaScript inte är aktiverat"
+
+#: theme/calendar-day.tpl.php:41
+#: theme/calendar-week.tpl.php:36
+msgid "Time"
+msgstr "Tid"
+
+#: theme/calendar-month-multiple-node.tpl.php:21
+#: theme/calendar-week-multiple-node.tpl.php:20
+msgid "Click to see all @count events"
+msgstr "Klicka för att se alla @count händelser"
+
+#: theme/theme.inc:59
+msgid "Add+"
+msgstr "Lägg till"
+
+#: theme/theme.inc:305;331;374
+msgid "Items"
+msgstr "Poster"
+
+#: theme/theme.inc:647
+msgid "All times"
+msgstr "Alla tider"
+
+#: theme/theme.inc:651
+msgid "Before @time"
+msgstr "Innan @time"
+
+#: theme/theme.inc:674
+msgid "Item"
+msgstr "Post"
+
+#: theme/theme.inc:675
+msgid "Key"
+msgstr "Nyckel"
+
+#: theme/theme.inc:721
+msgid "Empty day"
+msgstr "Tom dag"
+

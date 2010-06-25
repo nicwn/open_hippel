@@ -1,0 +1,13 @@
+; $Id: demo_reset.info,v 1.1.2.2 2009/11/10 05:38:20 sun Exp $
+name = Demonstration site reset
+description = "Allows to reset the site on cron runs and to <strong>reset the site WITHOUT CONFIRMATION.</strong> Only supposed to be used on public demonstration sites. Use at your own risk."
+package = Development
+core = 6.x
+dependencies[] = demo
+
+; Information added by drupal.org packaging script on 2010-02-19
+version = "6.x-1.4"
+core = "6.x"
+project = "demo"
+datestamp = "1266603905"
+

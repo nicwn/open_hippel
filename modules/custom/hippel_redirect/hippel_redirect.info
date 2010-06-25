@@ -1,0 +1,6 @@
+; $Id$
+
+name = Hippel Redirect
+description = Redirects users to specfic pages per Open Hippel user stories
+core = 6.x
+package = Custom - Open Hippel
